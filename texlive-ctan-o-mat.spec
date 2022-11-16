@@ -38,14 +38,9 @@ mkdir -p %{buildroot}%{_datadir}
 cp -a texmf-dist %{buildroot}%{_datadir}
 
 %files
-%{_texmfdistdir}/texmf-dist/scripts/ctan-o-mat
-%doc %{_texmfdistdir}/texmf-dist/doc/support/ctan-o-mat
-%{_texmfdistdir}/texmf-dist
-%{_texmfdistdir}/texmf-dist/doc
-%doc %{_texmfdistdir}/texmf-dist/doc/man
-%doc %{_texmfdistdir}/texmf-dist/doc/man/man1
-%doc %{_texmfdistdir}/texmf-dist/doc/man/man1/ctan-o-mat.man1.pdf
-%doc %{_texmfdistdir}/texmf-dist/doc/man/man1/ctan-o-mat.1
+%{_texmfdistdir}/scripts/ctan-o-mat
+%doc %{_texmfdistdir}/doc/support/ctan-o-mat
+%doc %{_texmfdistdir}/doc/man/man1/*
 
 %post -p %{_sbindir}/texlive.post
 
