@@ -1,6 +1,6 @@
 Name:		texlive-ctan-o-mat
 Version:	51578
-Release:	1
+Release:	2
 Summary:	Upload or validate a package for CTAN
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ctan-o-mat
