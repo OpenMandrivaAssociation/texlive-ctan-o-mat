@@ -3,7 +3,7 @@ Version:	51578
 Release:	2
 Summary:	Upload or validate a package for CTAN
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ctan-o-mat
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/ctan-o-mat
 License:	bsd3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ctan-o-mat.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ctan-o-mat.doc.r%{version}.tar.xz
